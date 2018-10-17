@@ -1,3 +1,16 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\PageoneController::index
+
+app_lucky_number:
+    path: pages/page1
+    controller: App\Controller\Page1Controller::page
+
+app_page_2:
+    path: pages/page2
+    controller: App\Controller\Page2Controller::page
+
+
+app_page_3:
+    path: pages/page3
+    controller: App\Controller\Page3Controller::page
